@@ -28,11 +28,16 @@ Go to frontend folder <br />
 <br />
 
 `CLIENT_SECRET = your client secret` <br />
-`CLIENT_ID=Your google client id` <br />
 `MONGODB_URI = your mongodb uri ` <br />
 `JWT_SECRET = your jwt key` <br />
 
-## 4. Now start the react and node server by running the following command in root folder:- <br />
+## 4. Create a .env file in frontend folder and add the following:-
+<br />
+
+`REACT_APP_API_URL=http://localhost:4000/api` <br />
+`CLIENT_ID=Your google client id` <br />
+
+## 5. Now start the react and node server by running the following command in root folder:- <br />
 `
 npm run dev
 `
